@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+body{
+    background-color: #023094;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.content{
+    height: 40%;
+    width: 40%;
+    border-radius: 10px;
+    background-color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+h1{
+    text-align: center;
+    padding-top: 30px;
+    font-size: 40px;
+}
+p{
+    text-align: center;
+    color: grey;
+    padding-top: 40px;
+}
+.button{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    margin-top: 40px;
+}
+.bt1{
+    margin-right: 10px;
+    padding: 8px 40px;
+    font-weight: 600;
+   border-radius: 20px;
+   border: none;
+
+}
+.bt2{
+    padding: 8px 20px;
+    border-radius: 20px;
+    background-color: #023094;
+    color: white;
+    border: none;
+}
